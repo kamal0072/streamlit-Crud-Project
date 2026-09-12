@@ -9,6 +9,9 @@ from database import (
     update_employee,
     delete_epmloyee_data,    
 )
+
+st.title("Hello world")
+st.write('welcome to Da Dashboard')
 # page config
 st.set_page_config(
     page_title='Employee Management System',
