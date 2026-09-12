@@ -12,6 +12,8 @@ from database import (
 
 st.title("Hello world")
 st.write('welcome to Da Dashboard')
+st.write('This is a crazy Dashboard  using Pandas and Streamlit....')
+
 # page config
 st.set_page_config(
     page_title='Employee Management System',
@@ -29,6 +31,8 @@ st.title('Employee Management System')
 st.write(
     "Employee Management System With complete Crud Operation using streamlit and Sqlite3"
 )
+
+
 
 menu = st.sidebar.selectbox(
     "Select Your Operation", 
