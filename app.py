@@ -12,6 +12,7 @@ from database import (
 
 st.title("Hello world")
 st.write('welcome to Da Dashboard')
+st.write('This is My Dahsboard for Data analystics')
 # page config
 st.set_page_config(
     page_title='Employee Management System',
