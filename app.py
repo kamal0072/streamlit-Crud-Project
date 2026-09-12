@@ -12,7 +12,6 @@ from database import (
 
 st.title("Hello world")
 st.write('welcome to Da Dashboard')
-st.write('This is My Dahsboard for Data analystics')
 # page config
 st.set_page_config(
     page_title='Employee Management System',
@@ -23,6 +22,9 @@ st.sidebar.header("Working with Sales Data")
 # create table
 create_emp_table()
 
+st.title('DATA Management System')
+st.title('Application to manage your data')
+st.write("This is a simple application to manage your data using Streamlit and Sqlite3. You can perform CRUD operations on your data using this application.")
 st.title('Employee Management System')
 st.write(
     "Employee Management System With complete Crud Operation using streamlit and Sqlite3"
